@@ -31,21 +31,23 @@
 // console.log(fruits); 
 
 let arr = [10,20,30,40,50];
+arr.append()
+
 
 // Push
-arr.push(60);
+// arr.push(60);
 // console.log(arr);
 
 // Pop
-arr.pop();
+// arr.pop();
 // console.log(arr);
 
 // Unshift - apush element at first
-arr.unshift(1);
+// arr.unshift(1);
 // console.log(arr);
 
 // Shift - remove element from first position
-arr.shift();
+// arr.shift();
 // console.log(arr);
 
 // arr.forEach((element, index) => {

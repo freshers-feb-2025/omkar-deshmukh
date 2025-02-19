@@ -71,7 +71,29 @@ function fun(){
 const getUser = () => {
     return { name: "Omkar", age: 24 };
 };
-console.log(getUser()); // { name: "Omkar", age: 24 }
+// console.log(getUser()); // { name: "Omkar", age: 24 }
+
+console.log("Start");
+
+// Simulating asynchronous operations using setTimeout
+setTimeout(() => {
+    console.log("1. Fetching user data...");
+    setTimeout(() => {
+        console.log("2. Fetching orders for user...");
+        setTimeout(() => {
+            console.log("3. Fetching order details...");
+            setTimeout(() => {
+                console.log("4. Processing payment...");
+                setTimeout(() => {
+                    console.log("5. Payment successful!");
+                }, 1000);
+            }, 1000);
+        }, 1000);
+    }, 1000);
+}, 1000);
+
+console.log("End");
+
 
 
   
