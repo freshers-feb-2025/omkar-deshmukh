@@ -53,11 +53,14 @@ arr.shift();
 // });
 
 // Map
-let arr2 = arr.map(n => n*n);
-console.log(arr2);
-console.log(arr);
+// let arr2 = arr.map(n => n*n);
+// console.log(arr2);
+// console.log(arr);
 
-// Filter
-let arr3 = arr.filter()
+// // Filter
+// let arr3 = arr.filter()
+
+let arr2 = [1,5, 'fnm', {name : "omkar"}, undefined];
+console.log(arr2);
   
 
