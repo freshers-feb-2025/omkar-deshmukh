@@ -31,21 +31,23 @@
 // console.log(fruits); 
 
 let arr = [10,20,30,40,50];
+arr.append()
+
 
 // Push
-arr.push(60);
+// arr.push(60);
 // console.log(arr);
 
 // Pop
-arr.pop();
+// arr.pop();
 // console.log(arr);
 
 // Unshift - apush element at first
-arr.unshift(1);
+// arr.unshift(1);
 // console.log(arr);
 
 // Shift - remove element from first position
-arr.shift();
+// arr.shift();
 // console.log(arr);
 
 // arr.forEach((element, index) => {
@@ -53,11 +55,14 @@ arr.shift();
 // });
 
 // Map
-let arr2 = arr.map(n => n*n);
-console.log(arr2);
-console.log(arr);
+// let arr2 = arr.map(n => n*n);
+// console.log(arr2);
+// console.log(arr);
 
-// Filter
-let arr3 = arr.filter()
+// // Filter
+// let arr3 = arr.filter()
+
+let arr2 = [1,5, 'fnm', {name : "omkar"}, undefined];
+console.log(arr2);
   
 
