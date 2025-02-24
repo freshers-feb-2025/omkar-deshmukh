@@ -32,4 +32,4 @@ let a = 876;
 console.log(b);
 console.log(a);
 
-let nhhh = $_nc;
+let nhhh = $_nc
